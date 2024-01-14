@@ -1,0 +1,215 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+
+  .nav-item2{
+    display: none;
+  }
+  
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+  .nav-item2{
+    display: none;
+  }
+
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+  .nav-item2{
+    display: none;
+  }
+
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+  .nav-item2{
+    display: none;
+  }
+
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+
+  .nav-item2{
+    display: none;
+  }
+
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+/*****************************
+header section code start
+******************************/
+.header-section .btn {
+    display: none;
+}
+
+/*****************************
+banner section code start
+******************************/
+.banner-section .title {
+    text-align: center;
+    margin-bottom: 77px;
+}
+
+.banner-section .title h6 {
+  padding-top: 0px;
+}
+
+.banner-section .title h1 {
+    font-size: 35px;
+    padding: 0;
+    line-height: 45px;
+}
+
+.banner-section .title p {
+    line-height: 35px;
+    padding: 0 10px;
+    margin: 30px 0;
+}
+
+/*****************************
+books section code start
+******************************/
+.books-section {
+  width: 100%;
+  padding: 50px 0;
+}
+
+.books-section .col-lg-3{
+    width: 50%;
+}
+
+.books-section .books {
+  margin: 0px;
+  margin-bottom: 25px;
+}
+
+.books-section .books img {
+    width: 66px;
+    height: 85px;
+}
+
+.books-section .books h5 {
+    padding: 0 32px;
+}
+
+/*****************************
+Courses section code start
+******************************/
+.courses-section .courses {
+    padding: 20px 20px 8px 20px;
+}
+
+.courses-section .courses .btn {
+    margin-bottom: 10px;
+}
+
+.courses-section .courses .icon {
+    margin: 8px 6px;
+}
+
+/*****************************
+testimonial section code start
+******************************/
+.testimonial-section .title {
+    margin-bottom: 60px;
+}
+
+.testimonial-section .img {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.testimonial-section .img img {
+    width: 100px;
+    height: 100px;
+    margin-left: 0px;
+}
+
+.testimonial-section .text {
+    text-align: center;
+}
+
+.testimonial-section .text p {
+  margin-top: 0px;
+  padding: 0 17px;
+}
+
+
+/*****************************
+footer section code start
+******************************/
+.footer-section p {
+    margin-bottom: 40px;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.col {
+    flex: none;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.footer-section .Copyright {
+  color: #5d5d5d;
+  font-size: 14px;
+  padding-top: 0px;
+}
+
+/*****/
+}
+/*****/
+
+/********** Md Rubel Gazi *************/
